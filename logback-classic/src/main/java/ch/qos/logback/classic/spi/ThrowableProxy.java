@@ -24,6 +24,10 @@ import java.util.Set;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/*
+ * The StackOverflow bug has been fixed thanks to the code of @jpstotz
+ */
+
 public class ThrowableProxy implements IThrowableProxy {
 
     private Throwable throwable;
